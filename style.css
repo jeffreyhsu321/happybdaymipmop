@@ -1,7 +1,7 @@
 body{
 	font-family: 'Imprima', sans-serif;
 	margin:0;
-	background-image: url("images/dreamcafewrappercatition.png"), url("allthecatsyouneed/bg.jpg");
+	background-image: url("images/dreamcafewrapper.png"), url("images/bgimage.jpg");
 	background-position: 40% 40%, 100% 100%;
 	background-repeat: no-repeat, repeat;
 	background-size: 95%,70%
@@ -46,8 +46,37 @@ img {
 	height: 150px;
 }
 
-#catfur {
-	width: 70%;
-	background-image: url("images/catfur.jpg");
+.catfur {
+	padding: 0.02px;
+	width: 65%;
+	background-image: ;
 	background-size: 100% auto;
+}
+
+.marquees {
+	visibility: hidden;
+}
+
+#cattack {
+    background-image: url('allthecatsyouneed/57.jpg');
+	background-size: 100%;
+	background-position: 40% 40%;
+    border: none;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#cattack:hover {
+    background-image: url('allthecatsyouneed/57.jpg');
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	background-size: 300%;
+	background-position: 14% 32%;
+    border: none;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    font-size: 16px;
 }
